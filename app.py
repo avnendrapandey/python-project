@@ -62,4 +62,6 @@ mul(10,6)
 div(20,10)
 
 print("hello world")
+print("hello world")
+print("hello world")
     
