@@ -210,26 +210,80 @@ print(type(val),val)"""
 #         pairlis=[(list2[i],list3[i]) for i in range(0,w)]
 #         return pairlis
 #     print(makespairs([1,3,5,7],[2,4,6,8]))
-print("hello")
-var=("hello","for","bye")
-print(var)
-#r+ mode 
-filename="recuriment.txt"
-with open(filename,"w") as file:
-    file.write("this is the original content")
-    with open(filename,"r+") as file:
-        print("original file content ")
-        print(file.read())
-        file.seek(0)
-        file.write("updated content")
-        file.seek(0)
-        print("updated content file")
-        print(file.read())
-        with open(filename,"r") as file:
-            print("verified content from the file")
-            print(file.read())
+# print("hello")
+# var=("hello","for","bye")
+# print(var)
+# #r+ mode 
+# filename="recuriment.txt"
+# with open(filename,"w") as file:
+#     file.write("this is the original content")
+#     with open(filename,"r+") as file:
+#         print("original file content ")
+#         print(file.read())
+#         file.seek(0)
+#         file.write("updated content")
+#         file.seek(0)
+#         print("updated content file")
+#         print(file.read())
+#         with open(filename,"r") as file:
+#             print("verified content from the file")
+#             print(file.read())
+
+# leg=int(input("enter a no"))
+# head=int(input("enter a no"))
+# for head in range(1,head):
+#     if head==head**2:
+#         print("dog")
+#     else:
+#         print("chicken")
+#             
+# head=7 
+# leg=20   
+# HEAD=head**2   
+# for head in range(1,head):
+#     if head=HEAD or :
+#         print("dog")
+#     else:
+#         print("hen")
+# total_heads = 3
+# total_legs = 20
+
+# for hens in range(total_heads + 1):
+#    dogs = total_heads - hens
+#    legs = hens * 2 + dogs * 4
+#    if legs == total_legs:
+#         print(f"Hens: {hens}, Dogs: {dogs}")
+h=int(input("enter no"))
+l=int(input("enter no"))
+dog=0
+hen=0
+count3=0
+for h in range(1,h+1):
+     H=h**2
+     if l%2!=0:
+         count3=count3+1
+           
+     elif H==h**2<=l:
+         dog=dog+1
             
-          
+     else:
+         hen=hen+1
+
+
+
+if dog*4+hen*2==l:
+    if count3>0:
+     print("impossible")
+    else:     
+     print("dog=",dog)
+     print("hen=",hen)         
+else:
+   print("default legs")
+    
+
+
+
+
 
 
 
