@@ -60,4 +60,6 @@ add(10,5)
 subs(10,6)  
 mul(10,6)
 div(20,10)
+
+print("hello world")
     
