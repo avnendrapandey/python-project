@@ -8,6 +8,4 @@ app=Flask(__name__)
 def welcome():
     return "welcome to flak course"
 
-if __name__=="__main__":
-    app.run()
 
